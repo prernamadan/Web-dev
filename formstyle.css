@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Lato:ital@1&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,300;0,400;0,600;1,500&family=Questrial&family=Raleway:wght@300&family=Roboto&display=swap');
+body{
+    background-color: rgb(50, 61, 114);
+    font-family: 'Raleway', sans-serif;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    border: 3px solid black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 360px;
+    height: 400px;
+    padding:10px;
+    margin: 50px auto;
+    border-radius: 20px;
+    opacity: calc(80%);
+    background-color: rgb(150, 216, 235);
+    
+
+}
+
+.input:focus{
+    outline: none;
+    border: 3px solid rgb(194, 42, 179);
+    border-radius: 5px;
+}
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    text-align: center;
+    
+}
+button{
+    background-color: black;
+    color:beige;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid black;
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 5px 10px;
+    width: 50%;
+    
+
+
+}
+.small{
+    font-size: 12px;
+    color: lightslategray;
+    text-decoration: solid;
+    font-weight: 800;
+}
+
+
